@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
 
-function NavBar() {
+function NavigationBar() {
   return (
     <nav>
       <a href="#home">I'm a link!</a>
@@ -31,7 +31,7 @@ function About() {
 function App() {
   return (
     <div>
-      <NavBar />
+      <NavigationBar />
       <Home />
       <About />
     </div>
